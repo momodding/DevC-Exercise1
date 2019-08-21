@@ -2,13 +2,99 @@
 <html lang="en">
   <head>
     <title>Exercise 1</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: Verdana, Geneva, sans-serif;
+      }
+      .rounded-circle {
+        position: absolute;
+        left: 50%;
+        max-width: 140px;
+        transition: all 0.15s ease;
+        transform: translate(-50%, -50%) scale(1);
+        border: 3px solid #fff;
+      }
+    </style>
   </head>
   <body>
     <center>
       <h1>Biodata</h1>
     </center>
-    Nama: Utsman Fajar <br />
-    Alamat: Yogyakarta <br />
-    Jenis Kelamin: Laki-laki <br />
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 mx-auto">
+          <div class="card shadow-lg border-0">
+            <img
+              src="https://demos.creative-tim.com/argon-dashboard-pro/assets/img/theme/img-1-1000x600.jpg"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="row justify-content-center">
+              <div class="col-lg-3 order-lg-2">
+                <div class="postion-relative">
+                  <img
+                    src="https://media.licdn.com/dms/image/C5603AQGlM0F7B0f0dQ/profile-displayphoto-shrink_200_200/0?e=1571875200&v=beta&t=-6Xq6dCF_XfNxvXQi5_oDDh7aCK3FSKhCRxCxq7Mt0o"
+                    alt=""
+                    class="rounded-circle"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="card-header bg-white border-0">
+              <div class="row">
+                <div class="col-md-6" align="left">
+                  <a
+                    href="https://www.linkedin.com/in/utsman-fajar-b01a63169/"
+                    class="btn btn-primary"
+                  >
+                    LinkedIn
+                  </a>
+                </div>
+                <div class="col-md-6" align="right">
+                  <a href="https://gitlab.com/momodding" class="btn btn-danger">
+                    Gitlab
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-md-6" align="left">
+                  <p>Nama</p>
+                  <p>Asal</p>
+                  <p>Hobi</p>
+                </div>
+                <div class="col-md-6" align="right">
+                  <p>Utsman</p>
+                  <p>Kebumen</p>
+                  <p>Ghibah</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
